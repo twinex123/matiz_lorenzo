@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@font-face {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    src: url(FontLocationOnServer);
+    
+}
+
+.title{
+    padding-top: 5%;
+    font-size: 300px;
+    margin: 0%;
+    font-family: Babylonica;
+}
+
+.title2{
+    padding-top: 5%;
+    margin: 0%;
+    font-size: 300px;
+    color: #ffffff;
+}
+
+.title3{
+    font-size: 200px;
+    padding-top: 5%;
+    margin: 0%;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(167, 167, 167, 0.5);
+    background-size: 10%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: whitesmoke;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#home{
+    background-image: url("images/tableau1.jpg");
+    scroll-snap-align: right;
+    margin: 0;
+    background-position:center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 100%;
+    height: 130%;
+}
+
+
+#passion{
+    scroll-snap-align: right;
+    margin: 0;
+    background-position:center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(73, 73, 73),black);
+    width: 100%;
+    height: 150%;
+    color: rgb(255, 255, 255);
+}
+
+#events{
+    background: linear-gradient(black,rgba(119, 46, 4, 0.836));
+    width: 100%;
+    height: 150%;
+    color: #ffffff;
+}
+
+#contact{
+    background-image: url("images/tableau2.jpg");
+    background-color: #000000;
+    width: 100%;
+    height: 150%;
+    color: rgb(0, 0, 0);
+}
+
+.img_right{
+    position: absolute;
+    float: right;
+    right: 30px;
+}
+
+.img_left{
+    position: absolute;
+    float: left;
+    left: 30px;
+}
+
+.img_footer{
+    position: static;
+    left: 750px;
+    top: 20%;
+}
+
+.list_contact{
+    padding-block-start: 0%;
+}
+
+.button {
+    background-color: #01415f;
+    border: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
